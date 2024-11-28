@@ -33,7 +33,7 @@ python --version
 
 Paso 1: Clona el repositorio
 ```bash
-git clone https://github.com/tu-usuario/CopyChecker.git
+git clone https://github.com/alejandroMartin99/CopyChecker.git
 ```
 Paso 2: Instala las dependencias
 ```bash
