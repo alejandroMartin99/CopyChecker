@@ -29,17 +29,20 @@ Asegúrate de tener Python 3.6 o superior instalado en tu sistema. Puedes verifi
 
 ```bash
 python --version
-
+```
 
 Paso 1: Clona el repositorio
 ```bash
 git clone https://github.com/tu-usuario/CopyChecker.git
-
-Paso 1: Instala las dependencias
+```
+Paso 2: Instala las dependencias
 ```bash
 pip install customtkinter
-
-
+```
+Paso 3: Lanzador de la app 
+```bash
+main.py
+```
 ## Uso
 
 1. **Seleccionar carpetas:** Usa los botones para elegir la carpeta de origen y la carpeta de destino.
@@ -55,8 +58,8 @@ pip install customtkinter
 - **Test de copia:** Asegura que los archivos no coincidentes sean copiados correctamente al destino, replicando la estructura de directorios.
 - **Test de interfaz:** Comprueba que la interfaz de usuario responda correctamente a las interacciones del usuario, como la selección de carpetas y la visualización de resultados.
 
-Para ejecutar los tests, puedes utilizar un framework de pruebas como `unittest` o `pytest`. Los test están implementados en el archivo `test_copychecker.py`.
+Los test están implementados en el archivo `test_copychecker.py`.
 
 ## Capturas de Pantalla
 
-![Captura de pantalla de la interfaz](screenshot1.png)
+![Captura de pantalla de la interfaz](appFront.png)
